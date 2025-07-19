@@ -1,0 +1,38 @@
+# Configuration file for GitHub Pages
+url: "https://yourusername.github.io"
+baseurl: "/AmznProdAffiliate"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - PRODUCT_GUIDE.md
+  - .github/
+  - .gitignore
+
+# Include specific files
+include:
+  - .htaccess
+
+# Plugin settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO settings
+title: "BiGMaN - Best Product Recommendations"
+description: "Discover amazing products with honest reviews. As an Amazon Associate, we earn from qualifying purchases."
+author: "BiGMaN Team"
+
+# Social settings
+social:
+  name: "BiGMaN"
+  links:
+    - "https://instagram.com/bigman_products"
+    - "https://twitter.com/bigman_products"
+
+# Analytics (optional - add your Google Analytics ID)
+# google_analytics: UA-XXXXXXXX-X
