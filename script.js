@@ -59,7 +59,7 @@ const products = [
 ];
 
 // Amazon Associate ID - Replace with your actual Associate ID
-const AMAZON_ASSOCIATE_ID = "your-associate-id-20";
+const AMAZON_ASSOCIATE_ID = "bigmandevelop-21";
 
 // Function to add Amazon Associate ID to URL
 function addAssociateId(url) {
