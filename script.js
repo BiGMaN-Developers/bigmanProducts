@@ -3,58 +3,31 @@
 // Note: Removed price and ratings to comply with Amazon Associates policies
 const products = [
     {
-        id: 1,
-        name: "Wireless Noise Cancelling Headphones",
-        image: "https://via.placeholder.com/300x200/667eea/ffffff?text=Headphones",
-        description: "Premium wireless headphones with active noise cancellation. Perfect for travel, work, or relaxation. Great for commuting and focus work.",
-        amazonUrl: "https://amazon.com/dp/YOUR-AFFILIATE-LINK-1",
-        category: "Electronics",
-        features: ["Active Noise Cancellation", "Wireless Connectivity", "Long Battery Life"]
+        "id": 1,
+        "name": "Penguin Select Classics: Crime And Punishment: (Original, Unabridged Classic)",
+        "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1758433761/IMG_20250921_111751_swfq2j.jpg",
+        "description": "Crime and Punishment stands as a testament to Dostoevsky’s unparalleled ability to explore the depths of the human psyche, the complexities of truth, guilt, and the search for redemption.",
+        "amazonUrl": "https://amzn.to/46dLv43",
+        "category": "Books",
+        "features": ["Paperback", "Original, Unabridged Classic", "Dostoevsky"]
     },
     {
-        id: 2,
-        name: "Smart Fitness Tracker",
-        image: "https://via.placeholder.com/300x200/764ba2/ffffff?text=Fitness+Tracker",
-        description: "Track your health and fitness goals with this advanced smartwatch featuring heart rate monitoring and GPS. Perfect companion for your fitness journey.",
-        amazonUrl: "https://amazon.com/dp/YOUR-AFFILIATE-LINK-2",
-        category: "Health & Fitness",
-        features: ["Heart Rate Monitor", "GPS Tracking", "Water Resistant"]
+        "id": 2,
+        "name": "TP-Link RE200 AC750 Wifi Range Extender | Up to 750Mbps",
+        "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1758433991/RE200_IN_01_normal_1608599870133l_noanz0.jpg",
+        "description": "Boosts wireless signal to previously unreachable or hard-to-wire areas flawlessly.",
+        "amazonUrl": "https://amzn.to/47U8YbU",
+        "category": "Computers",
+        "features": ["Dual Band", "750 Megabits Per Second", "Miniature size and wall-mounted design"]
     },
     {
-        id: 3,
-        name: "Portable Bluetooth Speaker",
-        image: "https://via.placeholder.com/300x200/ff6b6b/ffffff?text=Speaker",
-        description: "Waterproof portable speaker with amazing sound quality. Perfect for outdoor adventures and parties. Compact design with powerful audio.",
-        amazonUrl: "https://amazon.com/dp/YOUR-AFFILIATE-LINK-3",
-        category: "Electronics",
-        features: ["Waterproof Design", "Bluetooth 5.0", "Portable"]
-    },
-    {
-        id: 4,
-        name: "Ergonomic Office Chair",
-        image: "https://via.placeholder.com/300x200/4ecdc4/ffffff?text=Office+Chair",
-        description: "Comfortable ergonomic chair designed for long work sessions. Adjustable height and lumbar support for better posture and comfort.",
-        amazonUrl: "https://amazon.com/dp/YOUR-AFFILIATE-LINK-4",
-        category: "Office",
-        features: ["Ergonomic Design", "Lumbar Support", "Adjustable Height"]
-    },
-    {
-        id: 5,
-        name: "Stainless Steel Water Bottle",
-        image: "https://via.placeholder.com/300x200/45b7d1/ffffff?text=Water+Bottle",
-        description: "Double-wall insulated water bottle that keeps drinks at the perfect temperature. Durable stainless steel construction for everyday use.",
-        amazonUrl: "https://amazon.com/dp/YOUR-AFFILIATE-LINK-5",
-        category: "Lifestyle",
-        features: ["Double-Wall Insulation", "Stainless Steel", "Leak-Proof"]
-    },
-    {
-        id: 6,
-        name: "LED Desk Lamp",
-        image: "https://via.placeholder.com/300x200/96ceb4/ffffff?text=Desk+Lamp",
-        description: "Adjustable LED desk lamp with multiple brightness levels and color temperatures. USB charging port included for convenience.",
-        amazonUrl: "https://amazon.com/dp/YOUR-AFFILIATE-LINK-6",
-        category: "Office",
-        features: ["LED Technology", "Adjustable Brightness", "USB Charging Port"]
+        "id": 3,
+        "name": "Madmix Assorted Raisins Combo: Paan and Mango",
+        "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1758433871/Raisins-box-1_ipk78o.webp",
+        "description": "Assorted combo of paan and mango flavored raisins, offering a vegan, low-calorie, and sugar-free snacking option.",
+        "amazonUrl": "https://amzn.to/3Vs0G3n",
+        "category": "Grocery",
+        "features": ["This is a Vegetarian product.", "Natural", "Premiun Raisins"]
     }
 ];
 
@@ -203,3 +176,4 @@ if (typeof module !== 'undefined' && module.exports) {
         createProductCard
     };
 }
+
