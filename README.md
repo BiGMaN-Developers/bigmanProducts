@@ -5,7 +5,7 @@ A clean, professional website for showcasing Amazon affiliate products with easy
 ## 🚀 Features
 
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Easy Product Management**: Add/remove products by simply editing the `products.json` file
+- **Easy Product Management**: Add/remove products by simply editing the products in `script.js` file
 - **Amazon Policy Compliant**: Includes all required FTC disclosures and Amazon affiliate disclaimers
 - **GitHub Pages Ready**: Can be hosted for free on GitHub Pages
 - **No Database Required**: All data stored in simple JSON files
@@ -20,7 +20,7 @@ A clean, professional website for showcasing Amazon affiliate products with easy
 3. Replace `your-associate-id-20` in `script.js` with your actual ID
 
 ### 2. Add Your Products
-Edit the `products.json` file to add your affiliate products:
+Edit the `script.js` file to add your affiliate products:
 
 ```json
 {
@@ -63,13 +63,13 @@ Edit the `products.json` file to add your affiliate products:
 ## 🎯 Adding/Removing Products
 
 ### To Add a Product:
-1. Open `products.json`
+1. Open `script.js`
 2. Copy an existing product object
 3. Update all fields with your new product information
 4. Save the file - changes will appear automatically
 
 ### To Remove a Product:
-1. Open `products.json`
+1. Open `script.js`
 2. Delete the entire product object (including commas)
 3. Save the file
 
@@ -90,7 +90,7 @@ Edit the `products.json` file to add your affiliate products:
 2. Search for your product
 3. Click "Get Link" 
 4. Copy the generated affiliate URL
-5. Use this URL in your `products.json`
+5. Use this URL in your `script.js`
 
 ## 📜 Legal Compliance
 
@@ -158,7 +158,7 @@ The website is fully responsive and includes:
 ## 🔧 Troubleshooting
 
 ### Products Not Showing:
-- Check `products.json` for syntax errors
+- Check `script.js` for syntax errors
 - Ensure all commas and brackets are correct
 - Verify image URLs are accessible
 
@@ -197,3 +197,4 @@ If you need help:
 ---
 
 **Important**: Always comply with FTC guidelines and Amazon's Operating Agreement. This website template includes required disclosures, but you're responsible for staying current with policy changes.
+
