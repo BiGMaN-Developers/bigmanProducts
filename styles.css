@@ -86,7 +86,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(12, 20, 18, 0.88), rgba(27, 28, 23, 0.85)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><defs><linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%231b1c17;stop-opacity:0.12" /><stop offset="100%" style="stop-color:%230c1412;stop-opacity:0.12" /></linearGradient></defs><rect width="1000" height="600" fill="url(%23grad)"/></svg>');
+    background: linear-gradient(135deg, var(--color-night) 0%, var(--color-eerie-black) 60%, var(--color-dark-red) 100%);
     color: var(--color-baby-powder);
     text-align: center;
     padding: 100px 0;
@@ -379,3 +379,4 @@ footer {
         margin-bottom: 1rem;
     }
 }
+
