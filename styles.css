@@ -86,7 +86,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--color-night) 0%, var(--color-eerie-black) 60%, var(--color-dark-red) 100%);
+    background: var(--color-night);
     color: var(--color-baby-powder);
     text-align: center;
     padding: 100px 0;
@@ -379,4 +379,5 @@ footer {
         margin-bottom: 1rem;
     }
 }
+
 
