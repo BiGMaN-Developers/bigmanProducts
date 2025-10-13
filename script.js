@@ -13,6 +13,33 @@ const products = [
     },
     {
         "id": 2,
+        "name": "Act Like a Leader, Think Like a Leader",
+        "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1760371860/actLikeLeader_s99gbq.jpg",
+        "description": "You aspire to lead with greater impact. The problem is you're busy executing on today's demands. You know you have to carve out time from your "day job" to build your leadership skills, but it’s easy to let immediate problems and old mindsets get in the way.",
+        "amazonUrl": "https://amzn.to/4o9uOg8",
+        "category": "Books",
+        "features": ["Hardcover", "Herminia Ibarra", "Leadership"]
+    },
+    {
+        "id": 3,
+        "name": "Career Anchors Reimagined",
+        "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1760371859/careers_oobjd4.jpg",
+        "description": "Take back control of your career journey. Finding Direction and Opportunity in the Changing World of Work.",
+        "amazonUrl": "https://amzn.to/3VWqLrI",
+        "category": "Books",
+        "features": ["Hardcover", "John Van Maanen", "Career"]
+    },
+    {
+        "id": 4,
+        "name": "The Anatomy of a Turnaround",
+        "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1760371860/tunraround_wb9y5n.jpg",
+        "description": "An extraordinary business turnaround delivers actionable strategies for driving profit and growth in organizations in healthcare and beyond.",
+        "amazonUrl": "https://amzn.to/4pYwvyM",
+        "category": "Books",
+        "features": ["Hardcover", "Paul Kusserow", "Transforming"]
+    },
+    {
+        "id": 5,
         "name": "TP-Link RE200 AC750 Wifi Range Extender | Up to 750Mbps",
         "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1758433991/RE200_IN_01_normal_1608599870133l_noanz0.jpg",
         "description": "Boosts wireless signal to previously unreachable or hard-to-wire areas flawlessly.",
@@ -21,7 +48,7 @@ const products = [
         "features": ["Dual Band", "750 Megabits Per Second", "Miniature size and wall-mounted design"]
     },
     {
-        "id": 3,
+        "id": 6,
         "name": "Madmix Assorted Raisins Combo: Paan and Mango",
         "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1758433871/Raisins-box-1_ipk78o.webp",
         "description": "Assorted combo of paan and mango flavored raisins, offering a vegan, low-calorie, and sugar-free snacking option.",
@@ -176,4 +203,5 @@ if (typeof module !== 'undefined' && module.exports) {
         createProductCard
     };
 }
+
 
