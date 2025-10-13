@@ -15,7 +15,7 @@ const products = [
         "id": 2,
         "name": "Act Like a Leader, Think Like a Leader",
         "image": "https://res.cloudinary.com/dasvhhtmm/image/upload/v1760371860/actLikeLeader_s99gbq.jpg",
-        "description": "You aspire to lead with greater impact. The problem is you're busy executing on today's demands. You know you have to carve out time from your "day job" to build your leadership skills, but it’s easy to let immediate problems and old mindsets get in the way.",
+        "description": "You aspire to lead with greater impact. The problem is you're busy executing on today's demands. You know you have to carve out time from your 'day job' to build your leadership skills, but it’s easy to let immediate problems and old mindsets get in the way.",
         "amazonUrl": "https://amzn.to/4o9uOg8",
         "category": "Books",
         "features": ["Hardcover", "Herminia Ibarra", "Leadership"]
@@ -203,5 +203,6 @@ if (typeof module !== 'undefined' && module.exports) {
         createProductCard
     };
 }
+
 
 
